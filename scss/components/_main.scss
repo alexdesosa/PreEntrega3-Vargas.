@@ -1,0 +1,49 @@
+@import "../components/font";
+@import "../base/variables";
+
+.main{
+    font-size: large;
+    padding: 5rem;
+    background-color: $colorPrincipal;;
+}
+
+.main-p{ 
+    margin-bottom: 2rem;
+    color: rgb(214, 214, 214);
+}
+
+
+.main-h1{
+    color: rgb(241, 249, 255);
+}
+
+.main-h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(241, 249, 255);
+}
+
+.span-titulo{
+    padding-left: 5rem;
+    display: block;
+    color: rgb(181, 181, 181);
+}
+
+.btn {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+.btn:hover {
+    transform: scale(1.1); /* Hace que el botón se haga más grande al pasar el cursor por encima */
+}
+
+.btn:active {
+    background-color: rgb(255, 166, 0); /* Cambia el color del botón al presionarlo */
+}

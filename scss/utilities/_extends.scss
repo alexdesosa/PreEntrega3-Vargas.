@@ -1,0 +1,9 @@
+
+
+.p-link{
+    color: rgb(241, 249, 255);
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}

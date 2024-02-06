@@ -1,0 +1,36 @@
+@import "../base/variables";
+@import "../components/font";
+
+header{
+    nav{
+        background-color: $colorSecundario;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: flex-end; 
+            li{
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+// .logo{
+//     padding-right: 45rem;
+//     padding-left: 2rem;
+//     padding-top: 1rem;
+//     padding-bottom: .8rem;
+// }
+
+.enlaces-header{
+    gap: 10px;
+}
+

@@ -1,0 +1,115 @@
+
+
+$mobile: "(min-width: 319px) and (max-width: 480px)";
+$tablet: "(min-width: 481px) and (max-width: 1200px)";
+$desktop-small: "(min-width: 1201px) and (max-width: 1600px)";
+$desktop-large: "(min-width: 1601px) and (max-width:2000px)";
+
+// Mixins para Media Queries
+@mixin mobile {
+    @media #{$mobile} {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media #{$tablet} {
+        @content;
+    }
+}
+
+@mixin desktop-small {
+    @media #{$desktop-small} {
+        @content;
+    }
+}
+
+@mixin desktop-large {
+    @media #{$desktop-large} {
+        @content;
+    }
+}
+
+/* Estilos base que se aplicarán en todos los tamaños de pantalla */
+/* Puedes ajustar estos estilos según tus necesidades */
+
+/* Estilos para el encabezado */
+@media (min-width: 319px) and (max-width: 480px) {
+    .ftcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        
+    }
+
+    .border-ft{
+        border: none;
+        padding-right: 6rem;
+    }
+
+    .arte-1{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 800px){
+    .ftcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        
+    }
+
+    .border-ft{
+        border: none;
+        padding-right: 6rem;
+    }
+
+    .arte-1{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+
+@media (min-width:801px) and (max-width: 1200px){
+    
+        .logo{
+            padding-right: 45rem;
+            padding-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: .8rem;
+        }
+        .ftcontainer{
+                padding-top: 2rem;
+                padding-left: 5rem;
+                display: flex;
+                align-items: flex-start;
+                column-gap: 7rem;
+                text-decoration: none;
+            }
+}
+
+@media (min-width: 1201px){
+        .logo{
+            padding-right: 45rem;
+            padding-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: .8rem;
+        }
+        .ftcontainer{
+                padding-top: 2rem;
+                padding-left: 5rem;
+                display: flex;
+                align-items: flex-start;
+                column-gap: 7rem;
+                text-decoration: none;
+            }
+            
+}
+
+

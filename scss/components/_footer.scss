@@ -1,0 +1,54 @@
+@import "../base/variables";
+
+footer{
+    background-color: $colorSecundario;;
+}
+
+// .ftcontainer{
+//     padding-top: 2rem;
+//     padding-left: 5rem;
+//     display: flex;
+//     align-items: flex-start;
+//     column-gap: 7rem;
+//     text-decoration: none;
+// }
+
+.footersocial-link{
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1,5rem;
+    &:hover{
+        color: rgb(240, 248, 255);
+    }
+}
+
+.titulo-footer{
+    font-size: medium;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.ftli{
+    padding-bottom: .75rem;
+    list-style: none;
+    
+}
+
+.link-footer{
+    font-size: small;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    &:hover{
+        color: rgb(240, 248, 255);
+    }
+}
+
+.derechos-footer{
+    font-size: .65rem;
+}
+
+.border-ft{
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 2rem;
+}
